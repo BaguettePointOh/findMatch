@@ -1,1 +1,44 @@
-
+@font-face{
+    font-family: MyFont;
+    src: url(../findMatch/Assets/Myfont-Regular.otf);
+}
+@font-face {
+    font-family: Dosis;
+    src: url(../findMatch/Assets/Dosis-VariableFont_wght.ttf);
+}
+.Logo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.Logo img{
+    width: 7vw;
+}
+body{
+    background: rgb(255, 159, 175) url(Assets/stars.jpg);
+    background-size: 13vw;
+}
+h1{
+    font-family: Dosis;
+    text-align: center;
+    font-weight: 500;
+    text-wrap: wrap;
+    margin: 5px 20px 2px 20px;  
+}
+p{
+    text-align: center;
+    font-weight: 500;
+    text-wrap: wrap;
+    margin: 20px 20px 2px 20px;    
+}
+.main{
+    font-family: MyFont;
+    font-size: 27px;
+    margin: auto;
+    max-width: 60%;
+    border-color: rgb(255, 159, 175);
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 159, 175);
+    min-height: calc(100vh - 16px);
+}
