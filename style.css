@@ -6,13 +6,17 @@
     font-family: Dosis;
     src: url(../findMatch/Assets/Dosis-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: UbuntuCondensed;
+    src: url(../findMatch/Assets/UbuntuCondensed-Regular.ttf);
+}
 .Logo{
     display: flex;
     margin: auto;
     justify-content: center;
 }
 .Logo img{
-    width: 7vw;
+    width: 200px;
 }
 body{
     background: rgb(255, 159, 175) url(Assets/stars.jpg);
@@ -32,13 +36,42 @@ p{
     margin: 20px 20px 2px 20px;    
 }
 .main{
-    font-family: MyFont;
+    font-family: UbuntuCondensed;
     font-size: 27px;
     margin: auto;
     max-width: 60%;
+    min-width: 900px;
     border-color: rgb(255, 159, 175);
     border-width: 5px;
     border-radius: 5px;
     background-color: rgb(255, 159, 175);
-    min-height: calc(100vh - 16px);
+    min-height: 620px;
+    height: calc(100vh - 16px);
+    justify-items: center;
+}
+button{
+    background-color: rgb(255, 67, 67);
+    width: 340px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(255, 67, 67);
+    border-width: 5px;
+    border-radius: 10px;
+}
+button p{
+    font-family: MyFont;
+    font-size: 43px;
+}
+.Footer{
+    position: relative;
+    top: 100px;
+    height: calc(100vh - 720px);
+}
+footer{
+    position: absolute;
+    right: 10vw;
+    left: 10vw;
+    bottom: 12px;
+    justify-content: center;
+    font-size: medium;
 }
